@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+textarea{
+    background: transparent;
+    border: #333;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding:0px;
+}
+/* changed jumbotron styling - bg colour and text color */
+.jumbotron {
+    text-align: center;
+    background-color: #333;
+    color: #06AED5;
+    border-radius: 0;
+    border-bottom: 5px solid #ff6961;
+}
+/* changed text colour to white */
+.lead {
+    color: #ffffff;
+}
+/* changed clock styling  */
+.clock {
+    color: #ff6961;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+/* added bg color to spans */
+.clock span {
+    padding: 5px 5px 5px 5px;
+    background-color: #777;
+}
+
+.description{
+    white-space: pre-wrap;
+}
+
+.time-block{
+    text-align: center;
+    border-radius: 15px;
+    border: #777 solid 2px;
+    margin: 10px;
+}
+
+.text-block{
+    text-align: center;
+    border-radius: 15px;
+    border: #777 solid 2px;
+    margin: 10px;
+}
+
+.btn-block{
+    text-align: center;
+    border-radius: 15px;
+    border: #777 solid 2px;
+    margin: 10px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 100px;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+
+.past {
+    background-color: #d3d3d3;
+    color: white;
+}
+
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+.saveBtn {
+  background-color: #06AED5;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.saveBtn i:hover {
+  font-size: 50px;
+  transition: all .3s ease-in-out;
+}
